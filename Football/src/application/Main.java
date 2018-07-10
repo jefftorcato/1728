@@ -13,8 +13,8 @@ public class Main {
 		captain.setAge(22);
 		captain.setName("Jeff Torcato");
 		
-		Player goalkeeper=new Player("",22);
-		System.out.println("Caption name="+captain.getName());
+		Player goalkeeper=new Player("Kedar",22);
+		System.out.println("Captian name="+captain.getName());
 		System.out.println("Team Leader="+goalkeeper.getName()+"  "+"Age="+goalkeeper.getAge());
 		
 	}
